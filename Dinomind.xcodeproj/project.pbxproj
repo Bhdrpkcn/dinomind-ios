@@ -7,13 +7,33 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		E021D9D52F08439E00FF6A9F /* Dinomind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Dinomind.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E021D9D52F08439E00FF6A9F /* Dinomind.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = Dinomind.app; path = "/Users/bp/Desktop/Workspace/Dinomind/build/Debug-iphoneos/Dinomind.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		E021D9D72F08439E00FF6A9F /* Dinomind */ = {
+		E021D9EA2F08473500FF6A9F /* App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = Dinomind;
+			path = App;
+			sourceTree = "<group>";
+		};
+		E021D9EC2F08474E00FF6A9F /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		E021D9ED2F08475700FF6A9F /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Features;
+			sourceTree = "<group>";
+		};
+		E021D9EF2F08476E00FF6A9F /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E021DA762F08492A00FF6A9F /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -32,17 +52,12 @@
 		E021D9CC2F08439E00FF6A9F = {
 			isa = PBXGroup;
 			children = (
-				E021D9D72F08439E00FF6A9F /* Dinomind */,
-				E021D9D62F08439E00FF6A9F /* Products */,
+				E021D9EA2F08473500FF6A9F /* App */,
+				E021D9EC2F08474E00FF6A9F /* Core */,
+				E021D9ED2F08475700FF6A9F /* Features */,
+				E021D9EF2F08476E00FF6A9F /* Resources */,
+				E021DA762F08492A00FF6A9F /* Services */,
 			);
-			sourceTree = "<group>";
-		};
-		E021D9D62F08439E00FF6A9F /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				E021D9D52F08439E00FF6A9F /* Dinomind.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -61,7 +76,11 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				E021D9D72F08439E00FF6A9F /* Dinomind */,
+				E021D9EA2F08473500FF6A9F /* App */,
+				E021D9EC2F08474E00FF6A9F /* Core */,
+				E021D9ED2F08475700FF6A9F /* Features */,
+				E021D9EF2F08476E00FF6A9F /* Resources */,
+				E021DA762F08492A00FF6A9F /* Services */,
 			);
 			name = Dinomind;
 			packageProductDependencies = (
@@ -95,7 +114,7 @@
 			mainGroup = E021D9CC2F08439E00FF6A9F;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = E021D9D62F08439E00FF6A9F /* Products */;
+			productRefGroup = E021D9CC2F08439E00FF6A9F;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
