@@ -5,6 +5,11 @@
 ## User settings
 xcuserdata/
 
+# macOS system files
+.DS_Store
+
+# Xcode build generated files
+DerivedData/
 ## Obj-C/Swift specific
 *.hmap
 
