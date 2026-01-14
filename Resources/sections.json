@@ -1,0 +1,66 @@
+[
+  {
+    "id": "sec-1",
+    "title": "Section 1",
+    "description": "Into the Jungle",
+    "isLocked": false,
+    "levels": [
+      { "id": 1, "type": "star", "state": "completed" },
+      { "id": 2, "type": "book", "state": "completed" },
+      { "id": 3, "type": "listening", "state": "completed" },
+      { "id": 4, "type": "chest", "state": "completed" },
+      { "id": 5, "type": "star", "state": "completed" }
+    ]
+  },
+  {
+    "id": "sec-2",
+    "title": "Section 2",
+    "description": "City Life",
+    "isLocked": false,
+    "levels": [
+      { "id": 6, "type": "speaking", "state": "completed" },
+      { "id": 7, "type": "book", "state": "completed" },
+      { "id": 8, "type": "dumbbell", "state": "completed" }
+    ]
+  },
+  {
+    "id": "sec-3",
+    "title": "Section 3",
+    "description": "Future Tech",
+    "isLocked": false,
+    "levels": [
+      { "id": 9, "type": "star", "state": "completed" },
+      { "id": 10, "type": "chest", "state": "completed" },
+      { "id": 11, "type": "star", "state": "active" },
+      { "id": 12, "type": "listening", "state": "locked" },
+      { "id": 13, "type": "book", "state": "locked" },
+      { "id": 14, "type": "dumbbell", "state": "locked" },
+      { "id": 15, "type": "dumbbell", "state": "locked" }
+    ]
+  },
+  {
+    "id": "sec-4",
+    "title": "Section 4",
+    "description": "Space Travel",
+    "isLocked": true,
+    "levels": [
+      { "id": 16, "type": "star", "state": "locked" },
+      { "id": 17, "type": "listening", "state": "locked" },
+      { "id": 18, "type": "book", "state": "locked" }
+    ]
+  },
+  {
+    "id": "sec-5",
+    "title": "Section 5",
+    "description": "Test 5",
+    "isLocked": true,
+    "levels": [
+      { "id": 16, "type": "star", "state": "locked" },
+      { "id": 17, "type": "listening", "state": "locked" },
+      { "id": 18, "type": "book", "state": "locked" },
+      { "id": 19, "type": "book", "state": "locked" },
+      { "id": 20, "type": "book", "state": "locked" },
+      { "id": 21, "type": "book", "state": "locked" }
+    ]
+  }
+]

@@ -11,8 +11,8 @@ enum AppRoute: Hashable {
 // Sub-routes for the Welcoming Flow
 enum StartRoute: Hashable {
     case intro
-    case languageSelection
-    case proficiency
+    case wizard
+    case loading
     case auth
 }
 
